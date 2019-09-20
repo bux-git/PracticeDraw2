@@ -34,7 +34,7 @@ public class Sample07ColorMatrixColorFilterView extends View {
         bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.batman);
 
         ColorMatrix colorMatrix = new ColorMatrix();
-        colorMatrix.setSaturation(0);
+        colorMatrix.setSaturation(50);
         ColorFilter colorFilter = new ColorMatrixColorFilter(colorMatrix);
         paint.setColorFilter(colorFilter);
     }
